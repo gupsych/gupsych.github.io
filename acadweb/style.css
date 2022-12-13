@@ -1,0 +1,31 @@
+code {
+  color: #6666FF !important;
+}
+
+img {
+  max-width: 400px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.5);
+  margin-bottom: 1em;
+}
+
+/* set styles for alert boxes */
+
+.alert {
+  color: black;
+}
+
+.alert-danger {
+  background-color: #ffb8b8;
+}
+
+.alert-warning {
+  background-color: #fffad1;
+}
+
+.alert-info {
+  background-color: #c2e3ff;
+}
+
+.alert-success {
+  background-color: #cfffcc;
+}

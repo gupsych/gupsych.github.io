@@ -1,0 +1,84 @@
+code:not(.r) {
+  color: #cc3333 !important;
+}
+
+a {
+  color: rgb(61, 140, 210);
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  float: right;
+}
+
+.join {
+  height: 150px;
+  width: 200px;
+  float: right;
+  clear: right;
+}
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: #2c3e50;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+}
+
+/* set styles for alert boxes */
+
+.alert {
+  color: black;
+}
+
+.alert-danger {
+  background-color: #ffb8b8;
+}
+
+.alert-warning {
+  background-color: #fffad1;
+}
+
+.alert-info {
+  background-color: #c2e3ff;
+}
+
+.alert-success {
+  background-color: #cfffcc;
+}
+
+/* set styles for code output messages */
+
+pre:not(.sourceCode) {
+  background-color: #eeeef6;
+}
+pre:not(.sourceCode) code {
+  color: grey !important;
+}
+
+/* set styles for hidden solutions */
+.solution {
+  height: 2em;
+  overflow-y: hidden;
+  padding: 0.5em;
+}
+.solution.open {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.solution button {
+  height: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.solution pre.sourceCode {
+  border-color: green;
+}
+
+
